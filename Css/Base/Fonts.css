@@ -1,0 +1,21 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Fonts 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@font-face {
+    font-family: "Aleta";
+    src: url("/Fonts/Aleta/Aleta.eot");
+    src: url("/Fonts/Aleta/Aleta.otf");
+    src: url("/Fonts/Aleta/Aleta.woff");
+    src: url("/Fonts/Aleta/Aleta.woff2");
+}
+
+@font-face {
+    font-family: "Request";
+    src: url("/Fonts/Request/Request.ttf");
+    src: url("/Fonts/Request/Request.otf");
+    src: url("/Fonts/Request/Request.woff");
+    src: url("/Fonts/Request/Request.woff2");
+}

@@ -1,0 +1,110 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Small
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 575px) {
+    *,*::before,*::after {
+        cursor: default;
+    }
+    .btn-singup,
+    .btn-singin {
+        display: none;
+    }
+    .sing {
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 100%;
+        border-radius: 0.6rem;
+        border: 2px solid rgb(255 255 255);
+        padding: 0.5rem;
+        transition: var(--transition);
+    }
+    .sing:hover {
+        background-color: white;
+    }
+    .sing:hover .sing-icon path {
+        stroke: black;
+    }
+    .sing-icon {
+        display: block;
+    }
+    .content-title {
+        font-size: 3.8rem;
+        line-height: 7rem;
+        text-align: center;
+    }
+    .cart-title {
+        font-size: 3.3rem;
+    }
+    .row-about {
+        gap: 1rem;
+    }
+    .about-content-title {
+        font-size: 2.5rem;
+    }
+    .about-picture-img {
+        border-radius: 1.5rem;
+    }
+    .panels-content-title {
+        font-size: 2rem;
+    }
+    .support-picture {
+        grid-template-rows: repeat(3, 10rem);
+    }
+    .conection-info {
+        flex-flow: row wrap-reverse;
+        justify-content: center;
+    }
+    .info-addres {
+        flex-flow: row wrap;
+    }
+    .info-addres-title {
+        text-align: center;
+    }
+    .footer-app {
+        gap: 3.8rem;
+    }
+}
+@media (max-width: 420px) {
+    .content-title {
+        font-size: 3rem;
+        line-height: 5.5rem;
+    }
+    .btn-content {
+        width: 100%;
+    }
+    .cart-title {
+        font-size: 2.5rem;
+    }
+    .services-title,
+    .news-title {
+        font-size: 2.6rem;
+    }
+    .news-img {
+        width: 16rem;
+        height: 10rem;
+    }
+    .news-tag {
+        font-size: 1.4rem;
+    }
+    .news-caption {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .about-content-title {
+        font-size: 2rem;
+    }
+    .panels-content-title {
+        font-size: 1.8rem;
+    }
+    .footer-content-title {
+        font-size: 3.3rem;
+    }
+    .panels-item-title {
+        font-size: 1.4rem;
+    }
+}

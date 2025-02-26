@@ -1,0 +1,72 @@
+.conection {
+    padding: 1rem 0;
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url(/Images/Conection/Conection.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row-conection {
+    
+}
+.conection-info {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.4rem;
+}
+.info-call {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+.info-call-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: var(--green-color);
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+}
+.info-call-title {
+    font-size: 1.7rem;
+}
+.info-sotial {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+.sotioal-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: var(--green-color);
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    fill: white;
+    cursor: pointer;
+}
+.sotioal-icon:hover {
+    transition: var(--transition);
+    background-color: white;
+    fill: var(--green-color)
+}
+.info-addres {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+.info-addres-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: var(--green-color);
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+}
+.info-addres-title {
+    font-size: 1.7rem;
+}

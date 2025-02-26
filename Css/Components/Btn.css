@@ -1,0 +1,20 @@
+.btn {
+    height: 100%;
+    font-size: 1.8rem;
+    font-family: var(--aleta-font);
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.4rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: var(--transition);
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,15 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Root 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+:root {
+    --padding-grid: 1rem;
+    --box-shadow-color: #f5f5f5;
+    --motel-color: rgb(0, 140, 255);
+    --green-color: rgb(30, 250, 0);
+    --aleta-font: "Aleta";
+    --request-font: "Request";
+    --transition: 0.25s ease;
+}

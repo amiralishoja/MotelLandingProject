@@ -1,0 +1,81 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Medium
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 767px) {
+    .header {
+        height: max-content;
+    }
+    .home-content {
+        padding: 6rem 0 3rem 0;
+    }
+    .content-title {
+        font-size: 4rem;
+        line-height: 8rem;
+    }
+    .home-cart {
+        max-width: 55rem;
+    }
+    .cart-title {
+        font-size: 4.7rem;
+    }
+    .row-services {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .services-title {
+        font-size: 3rem;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(180deg, rgb(0 0 0 / 75%), rgb(0 0 0 / 0%));
+        text-align: center;
+        border-radius: 1rem;
+    }
+    .news-title {
+        font-size: 3rem;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(180deg, rgb(0 0 0 / 75%), rgb(0 0 0 / 0%));
+        text-align: center;
+        border-radius: 1rem;
+    }
+    .about {
+        padding: 3rem 0 0 0;
+    }
+    .about-content {
+        gap: 1.5rem;
+    }
+    .about-content-title {
+        font-size: 3.3rem;
+        line-height: 5rem;
+    }
+    .btn--about-green,
+    .btn--about-blue,
+    .btn--panels-two {
+        flex-grow: 1;
+    }
+    .panels-content-title {
+        font-size: 2.5rem;
+    }
+    .row-support {
+        flex-wrap: wrap-reverse;
+        gap: 2rem;
+    }
+    .support-picture {
+        grid-template-rows: repeat(3, 14rem);
+    }
+    .info-addres-title {
+        font-size: 1.5rem;
+    }
+    .footer-app {
+        flex-wrap: wrap;
+        gap: 2.8rem;
+    }
+    .footer-app-img {
+        height: max-content;
+        flex-grow: 1;
+    }
+    .footer-news {
+        max-width: none;
+    }
+}

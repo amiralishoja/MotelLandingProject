@@ -1,0 +1,47 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Import Base
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@import url("Base/Reset.css");
+@import url("Base/Fonts.css");
+@import url("Base/Root.css");
+@import url("Base/Grid.css");
+@import url("Base/Helpers.css");
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Import Components
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@import url("Components/Btn.css");
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Import Style
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@import url("Style/Navigition.css");
+@import url("Style/Home.css");
+@import url("Style/Services.css");
+@import url("Style/About.css");
+@import url("Style/Panels.css");
+@import url("Style/Support.css");
+@import url("Style/Conection.css");
+@import url("Style/Footer.css");
+
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Import Responsive
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@import url("Responsive/2XLarge.css");
+@import url("Responsive/XLarge.css");
+@import url("Responsive/Large.css");
+@import url("Responsive/Medium.css");
+@import url("Responsive/Small.css");

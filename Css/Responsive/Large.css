@@ -1,0 +1,111 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Large
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 991px) {
+    .btn-menu {
+        display: flex;
+    }
+    .btn-menu--active {
+        background-color: white;
+    }
+    .btn-menu:hover .btn-menu-line::before,
+    .btn-menu:hover .btn-menu-line::after {
+        transition: transform var(--transition);
+    }
+    .btn-menu--active .btn-menu-line {
+        background-color: white;
+    }
+    .btn-menu--active:hover .btn-menu-line {
+        background-color: white;
+    }
+    .btn-menu--active .btn-menu-line::before,
+    .btn-menu--active .btn-menu-line::after {
+        background-color: black;
+    }
+    .btn-menu--active .btn-menu-line::before {
+        top: calc(50% - (0.25rem / 2));
+        transform: rotate(45deg);
+    }
+    .btn-menu--active .btn-menu-line::after {
+        bottom: calc(50% - (0.25rem / 2));
+        transform: rotate(-45deg);
+    }
+    .menu {
+        position: absolute;
+        right: var(--padding-grid);
+        left: var(--padding-grid);
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1.5rem;
+        top: 100%;
+        bottom: auto;
+        height: 0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .menu--show {
+        padding: 1.5rem;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+        height: max-content;
+        transition: var(--transition);
+    }
+    .menu-item {
+        padding: 0.8rem 0;
+        width: 100%;
+    }
+    .cover {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        z-index: -1;
+    }
+    .cover--show {
+        opacity: 1;
+        z-index: 997;
+    }
+    .content-title {
+        font-size: 3.2rem;
+        line-height: 6rem;
+    }
+    .cart-title {
+        font-size: 2.9rem;
+    }
+    .news-tag {
+        font-size: 1.6rem;
+    }
+    .news-caption {
+        font-size: 1.4rem;
+    }
+    .news-title {
+        font-size: 2.3rem;
+    }
+    .services-title {
+        font-size: 2.3rem;
+    }
+    .services-wrapper {
+        gap: 2rem;
+    }
+    .row-about {
+        flex-flow: column-reverse wrap;
+        gap: 2rem;
+    }
+    .about-content-title {
+        text-align: center;
+    }
+    .about-company {
+        gap: 1rem;
+    }
+    .support-picture {
+        grid-template-rows: repeat(3, 9rem);
+    }
+}
