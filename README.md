@@ -1,4 +1,4 @@
-![Demo](demo.png)
+![Demo](Demo.png)
 
 # 📀 Motel Landing Project
 
